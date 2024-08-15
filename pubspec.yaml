@@ -1,0 +1,147 @@
+name: mallang
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+#  flutter_native_splash : ^2.2.4
+
+  cupertino_icons: ^1.0.2
+  dashed_stepper: ^0.0.4
+  flutter_sound: ^9.2.13
+  permission_handler: ^11.3.0
+  http: ^1.2.0
+#  dio: ^5.4.11
+  dio : ^4.0.0
+  provider: ^6.1.1
+  audioplayers: ^5.2.1
+  animated_text_kit: ^4.2.2
+  speech_to_text: ^6.6.0
+  get: ^4.6.6
+  flutter_launcher_icons: ^0.13.1
+  lottie: ^3.1.0
+  flutter_animated_button: ^2.0.3
+  button_animations: ^2.0.0+3
+  chat_gpt_sdk: ^2.0.0
+  speech_balloon: ^0.0.4
+
+flutter_icons:
+  image_path: "images/ic_launcher.png"
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Regular.otf
+
+
+
+  assets:
+  - assets/images/구름빵.png
+  - assets/images/토끼와거북이.png
+  - assets/images/흥부놀부.png
+  - assets/images/해님달님.png
+  - assets/images/끝말잇기.png
+  - assets/images/나의 빛나는 친구.png
+  - assets/images/너는 어떤 씨앗이니.png
+  - assets/images/여기는 토끼아파트입니다.png
+  - assets/images/여우와두루미.png
+  - assets/images/호박목욕탕.png
+  - assets/images/홀짝홀짝호로록.png
+  - assets/images/장수탕선녀님.png
+  - assets/images/티니핑.png
+  - assets/images/클림트의 정원으로.png
+  - assets/images/친구의전설.png
+  - assets/images/도와줘,브루너.png
+  - assets/images/변신요가.png
+  - assets/images/봄날의즐거운모자대회.png
+  - assets/images/인기도서1.png
+  - assets/images/인기도서2.png
+  - assets/images/인기도서3.png
+  - assets/images/인기도서4.png
+  - assets/images/인기도서5.png
+  - assets/images/ballon.png
+  - assets/images/인기도서6.png
+  - assets/images/background.png
+  - assets/images/rabbit.png
+  - assets/images/7.png
+  - assets/images/12.png
+  - assets/images/34.png
+  - assets/images/56.png
+  - assets/images/bee.png
+  - assets/images/giraffe.png
+  - assets/images/lion.png
+  - assets/images/rabbit.png
+  - assets/images/토.png
+  - assets/images/chick.png
+  - assets/images/sea.png
+  - assets/images/to.png
+  - assets/images/prev.png
+  - assets/images/splash.png
+  - assets/images/prev.png
+  - assets/images/ic_launcher.png
+  - assets/images/next.png
+  - assets/images/토낑.png
+  - assets/images/그림2.png
+  - assets/images/찐막.png
+  - assets/images/배경.png
+  - assets/images/appbar.png
+  - assets/images/검색토끼.png
+  - assets/lottie/lottie1.json
+  - assets/images/마이페이지토끼.png
+  - assets/lottie/lottie2.json
+  - assets/images/mic.png
+  - assets/images/pause.png
+  - assets/images/carrot.png
+  - assets/images/chickchick.png
+  - assets/images/dinasour.png
+  - assets/images/turtle.png
+  - assets/images/stt.png
+  - assets/json/토끼와 거북이.json
+  - assets/images/거.png
+  - assets/images/불꽃길.png
+  - assets/images/nightmode.png
+
